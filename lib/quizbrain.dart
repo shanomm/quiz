@@ -3,12 +3,9 @@ import 'question.dart';
 class QuizBrain {
   int _index = 0;
   final List<Question> _questionBank = [
+    Question(questionText: 'Is the sky blue?', questionAnswer: true),
     Question(
-      questionText: 'You can lead a cow down stairs but not up stairs.',
-      questionAnswer: false,
-    ),
-    Question(
-      questionText: 'Approximately one quarter of human bones are in the feet.',
+      questionText: 'does every month have 28 days?',
       questionAnswer: true,
     ),
     Question(questionText: 'A slug\'s blood is green.', questionAnswer: true),
